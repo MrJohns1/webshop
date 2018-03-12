@@ -3,7 +3,7 @@ Rett invest webshop prototype
 webshop, med produkt styring og admin.
 
 Brukerdel:
-forside
+forside - index-html
 om side
 produktside
 brukerprofil - login

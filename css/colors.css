@@ -1,0 +1,36 @@
+.color-primary{
+  color: #ffffff;
+}
+.color-secondary{
+  color: #000000;
+}
+.color-success{
+  color: #ffff00
+}
+.color-bg-success{
+  background-color: #000000
+}
+.color-warning{
+  color: #ff6600
+}
+.color-bg-warning{
+  background-color: #000000
+}
+.color-danger{
+  color: #ff0000
+}
+.color-bg-danger{
+  background-color: #000000
+}
+.color-info{
+	color: #3399ff
+}
+.color-bg-info{
+	background-color: #000000
+}
+.color-bg-primary{
+	background-color: #f2f2f2
+}
+.color-bg-secondary{
+	background-color: #000000
+}

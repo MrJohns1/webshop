@@ -1,0 +1,23 @@
+/*
+UTILITY
+*/
+.margin-30{
+	margin: 30px;
+}
+.box-300-px-1{
+	height: 300px;
+	width: 300px;
+}
+.box-150-px-1{
+	height: 150px;
+	width: 150px;
+}
+.container-80{
+	width: 80%;
+}
+.border-1px{
+	border: solid 1px red;
+}
+.padding-10{
+	padding: 10px;
+}

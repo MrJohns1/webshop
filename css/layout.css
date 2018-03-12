@@ -1,0 +1,29 @@
+/*
+Layout
+*/
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-item{
+  padding: 8px;
+  margin: 16px;
+}
+.flex-justify-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex-justify-left{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+.flex-justfy-space{
+	display: flex;
+	justify-content: space-evenly;
+}
