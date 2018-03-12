@@ -1,36 +1,132 @@
 .color-primary{
-  color: #ffffff;
+  color: #f2f2f2;
+}
+.color-primary-light{
+	color: #fcfcfc;
+}
+.color-primary-dark{
+	color: #d8d8d8;
 }
 .color-secondary{
   color: #000000;
 }
+.color-secondary-light{
+	color: #161616;
+}
 .color-success{
   color: #ffff00
 }
+.color-success-light{
+	color: #ffff28;
+}
+.color-success-dark{
+	color: #d6d600;
+}
 .color-bg-success{
-  background-color: #000000
+  background-color: #ffff00;
+}
+.color-bg-success-light{
+  background-color: #ffff28;
+}
+.color-bg-success-dark{
+  background-color: #d6d600;
 }
 .color-warning{
-  color: #ff6600
+  color: #ff7b00;
+}
+.color-warning-light{
+  color: #ff8514;
+}
+.color-warning-dark{
+  color: #ba5900;
 }
 .color-bg-warning{
-  background-color: #000000
+  background-color: #ff7b00;
+}
+.color-bg-warning-light{
+	background-color: #ff8514;
+}
+.color-bg-warning-dark{
+	background-color: #ba5900;
 }
 .color-danger{
-  color: #ff0000
+  color: #ff0000;
+}
+.color-danger-light{
+	color: #ff1c1c;
+}
+.color-danger-dark{
+	color: #c10000;
 }
 .color-bg-danger{
-  background-color: #000000
+  background-color: #ff0000;
+}
+.color-bg-danger-light{
+	background-color: #ff1c1c;
+}
+.color-bg-danger-dark{
+	background-color: #c10000;
 }
 .color-info{
-	color: #3399ff
+	color: #0011ff;
+}
+.color-info-light{
+	color: #212fff;
+}
+.color-info-dark{
+	color: #000baf;
 }
 .color-bg-info{
-	background-color: #000000
+	background-color: #0011ff;
+}
+.color-bg-info-light{
+	background-color: #212fff;
+}
+.color-bg-info-dark{
+	background-color: #000baf;
 }
 .color-bg-primary{
-	background-color: #f2f2f2
+	background-color: #f2f2f2;
+}
+.color-bg-primary-light{
+	background-color: #fcfcfc;
+}
+.color-bg-primary-dark{
+	background-color: #d8d8d8;
 }
 .color-bg-secondary{
-	background-color: #000000
+	background-color: #000000;
+}
+.color-bg-secondary-light{
+	background-color: #161616;
+}
+.color-accent{
+	color: #ffffff;
+}
+.color-accent-dark{
+	color: #bac6c5;
+}
+.color-bg-accent{
+	background-color: #ffffff;
+}
+.color-bg-accent-dark{
+	background-color: #bac6c5;
+}
+.color-inactive{
+	color: #a3a3a3;
+}
+.color-inactive-light{
+	color: #b7b7b7
+}
+.color-inactive-dark{
+	color: #919191;
+}
+.color-bg-inactive{
+	background-color: #a3a3a3
+}
+.color-bg-inactive-light{
+	background-color: #b7b7b7;
+}
+.color-bg-inactive-dark{
+	background-color: #919191;
 }
