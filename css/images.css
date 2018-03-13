@@ -1,0 +1,20 @@
+.img{
+	max-width: 100%;
+	max-height: 100%;
+}
+.img-50{
+	max-width: 50%;
+	max-height: 50%;
+}
+.img-portrait-md{
+	height: 200px;
+	width: 150px;
+}
+.img-landscape-md{
+	height: 150px;
+	width: 300px;
+}
+.img-small{
+	height: 50px;
+	width: 50px;
+}

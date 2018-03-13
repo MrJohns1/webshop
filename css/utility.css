@@ -16,7 +16,7 @@ UTILITY
 	width: 80%;
 }
 .border-1px{
-	border: solid 1px red;
+	border: solid 1px #000000;
 }
 .padding-30{
 	padding: 30px;
