@@ -18,10 +18,27 @@ UTILITY
 .border-1px{
 	border: solid 1px red;
 }
-.padding-10{
-	padding: 10px;
+.padding-30{
+	padding: 30px;
 }
 
-.body-margin-0{
-	margin: 0;
+/*Base html tags*/
+
+body{
+	margin: 0px;
+}
+li,
+ul,
+ol{
+	list-style: none;
+	padding-left: 0;
+}
+a{
+	color: #00659c;
+	text-decoration: none;
+	cursor: pointer;
+	outline: 0;
+}
+a:visited{
+	text-decoration: none;
 }
