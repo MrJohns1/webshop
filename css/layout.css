@@ -39,7 +39,7 @@ Layout
 	display: grid;
 	height: 100%;
 	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .grid-layout-3{
 	display: grid;
@@ -52,7 +52,7 @@ Layout
 	grid-column: 1/8;
 }
 .grid-bottom-footer{
-	grid-row: 8/8;
+	grid-row: 8/9;
 	grid-column: 1/8;
 }
 .grid-headline{
@@ -77,6 +77,12 @@ Layout
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr 1fr;
 }
+.grid-layour-vertical-split{
+	display: grid;
+	height: 100%;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+}
 .grid-area-default-content{
 	grid-row: 2/3;
 	grid-column: 1/2;
@@ -88,4 +94,10 @@ Layout
 .grid-area-default-footer{
 	grid-row: 3/4;
 	grid-column: 1/2;
+}
+.grid-area-default-sidebar{
+	grid-row: 2/8;
+	grid-column: 1/2;
+	border-collapse: collapse;
+
 }
