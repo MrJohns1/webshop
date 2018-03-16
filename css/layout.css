@@ -1,103 +1,77 @@
 /*
 Layout
 */
+
 .flex-column {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
+
 .flex-row {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
-.flex-justify-center{
-	display: flex;
-	justify-content: center;
-	align-items: center;
+
+.flex-justify-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.flex-justify-left{
-	display: flex;
-	justify-content: left;
-	align-items: center;
+
+.flex-justify-left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
-.flex-justify-space{
-	display: flex;
-	justify-content: space-evenly;
+
+.flex-justify-space {
+    display: flex;
+    justify-content: space-evenly;
 }
-.viewport-container{
-	height: 100vh;
-	width: : 100vw;
+
+.viewport-container {
+    height: 100vh;
+    width: : 100vw;
 }
 
 /*GRID*/
-.grid-layout-default{
-	display: grid;
-	grid-template-columns: 1/2;
-	grid-template-rows: 5% 1fr 5%;
-	height: 100%;
-}
-.grid-layout-8{
-	display: grid;
-	height: 100%;
-	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-.grid-layout-3{
-	display: grid;
-	height: 100%;
-	grid-template-rows: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
-}
-.grid-top-navbar{
-	grid-row: 1/8;
-	grid-column: 1/8;
-}
-.grid-bottom-footer{
-	grid-row: 8/9;
-	grid-column: 1/8;
-}
-.grid-headline{
-	grid-row: 3/4;
-	grid-column: 2/7;
-}
-.grid-card{
-	grid-row: 4/6;
-	grid-column: 3/6;
-}
-.grid-area-default-content2{
-	grid-row: 6/7;
-	grid-column: 3/6
-}
-.grid-area-default-content3{
-	grid-row: 7/7;
-	grid-column: 3/6;
-}
-.grid-layout-horizontal-split{
-	display: grid;
-	height: 100%;
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr 1fr;
-}
-.grid-layour-vertical-split{
-	display: grid;
-	height: 100%;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr;
-}
-.grid-area-default-content{
-	grid-row: 2/3;
-	grid-column: 1/2;
-}
-.grid-area-default-navbar{
-	grid-row: 1/2;
-	grid-column: 1/2;
-}
-.grid-area-default-footer{
-	grid-row: 3/4;
-	grid-column: 1/2;
-}
-.grid-area-default-sidebar{
-	grid-row: 2/8;
-	grid-column: 1/2;
-	border-collapse: collapse;
 
+.grid-layout-default {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5% 1fr 5%;
+    height: 100%;
+}
+
+.grid-layout-horizontal-split {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid-layout-sidebar-split {
+    display: grid;
+    grid-template-columns: 10% 1fr;
+    grid-template-rows: 1fr;
+}
+
+.grid-area-default-content {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.grid-area-default-navbar {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.grid-area-default-footer {
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.grid-area-default-sidebar {
+    grid-row: 2/3;
+    grid-column: 1/2;
 }
